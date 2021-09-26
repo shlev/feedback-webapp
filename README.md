@@ -21,3 +21,11 @@ flask - web framework
 psycopg2 - database adapter to connect postgres
 flask-sqlalchemy -manage postgress commands.
 gunicorn - http lib
+
+### python
+
+<br><br><br>
+
+# issues
+
+not compiled - [venv setting](https://techinscribed.com/python-virtual-environment-in-vscode/)
