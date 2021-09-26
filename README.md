@@ -20,4 +20,4 @@ same as npm
 flask - web framework
 psycopg2 - database adapter to connect postgres
 flask-sqlalchemy -manage postgress commands.
-gunicorn.
+gunicorn - http lib
