@@ -55,9 +55,9 @@ same as npm
 
 # Links
 
-[mailtrap.io](mailtrp) - email sandbox service
-[https://devcenter.heroku.com/articles/python-runtimes](python heroku)
-[https://gist.github.com/bradtraversy/0029d655269c8a972df726ed0ac56b88](deploy python on heroku)
+[mailtrp](mailtrap.io) - email sandbox service <br>
+[python heroku](https://devcenter.heroku.com/articles/python-runtimes)<br>
+[deploy python on heroku](https://gist.github.com/bradtraversy/0029d655269c8a972df726ed0ac56b88)
 <br><br>
 
 # issues
