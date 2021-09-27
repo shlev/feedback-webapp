@@ -17,14 +17,42 @@ same as npm
 
 ### python packages
 
-flask - web framework
-psycopg2 - database adapter to connect postgres
-flask-sqlalchemy -manage postgress commands.
-gunicorn - http lib
+- flask - web framework
+- psycopg2 - database adapter to connect postgres
+- flask-sqlalchemy -manage postgress commands.
+- gunicorn - http lib
+
+<br><br>
+
+- api
+  - default page
+  - post request
+- postgres alchemy
+  - create table
+  - write data
+- smtp
+  - send mail
+
+### Heroku
+
+- heroku login
+- heroku create <app-name>
+- heroku addons:create heroku-postgresql:hobby-dev --app <app-name> => create db for app
+- heroku config --app <app-name> => get app config
+- Procfile => define run file. (using gunicorn)
+- runtime.txt => python-version
+- pip freeze > requirements.txt => save python libs
 
 ### python
 
-<br><br><br>
+- pip freeze > requirements
+
+# Links
+
+[mailtrap.io](mailtrp) - email sandbox service
+[https://devcenter.heroku.com/articles/python-runtimes](python heroku)
+
+<br><br>
 
 # issues
 
