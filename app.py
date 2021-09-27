@@ -4,6 +4,8 @@ from flask_sqlalchemy import SQLAlchemy
 
 from send_mail import send_mail
 
+import os
+
 
 app = Flask(__name__) 
 
@@ -11,10 +13,10 @@ ENV = 'prod'
 
 if ENV == 'dev':
     app.debug = True
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:12345@localhost/lexus'
+    app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('FEEDBACK_DEV_URI')
 else:                                        
     app.debug = False
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://peegkjfyvevzfx:739b721c945383437c8c4924e4f10e9a7130d241e01a34680037ee1058a959ce@ec2-18-209-143-227.compute-1.amazonaws.com:5432/d25ibfclm49ff6'
+    app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('FEEDBACK_PROD_URI')
 
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 

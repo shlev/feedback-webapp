@@ -32,6 +32,7 @@ same as npm
   - write data
 - smtp
   - send mail
+- .bash_profile
 
 ### Heroku
 
@@ -42,6 +43,11 @@ same as npm
 - Procfile => define run file. (using gunicorn)
 - runtime.txt => python-version
 - pip freeze > requirements.txt => save python libs
+- link heroku to git
+  heroku git:remote -a <git-repository>
+- git push heroku main => update branch to heroku
+- heroku open
+- heroku run python
 
 ### python
 
@@ -51,7 +57,7 @@ same as npm
 
 [mailtrap.io](mailtrp) - email sandbox service
 [https://devcenter.heroku.com/articles/python-runtimes](python heroku)
-
+[https://gist.github.com/bradtraversy/0029d655269c8a972df726ed0ac56b88](deploy python on heroku)
 <br><br>
 
 # issues
